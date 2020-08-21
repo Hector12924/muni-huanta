@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MUNICIPALIDAD DISTRITAL DE ANTA</title>
+	<link rel="shortcut icon" href="cabesera.png">
+	<style type="text/css">
+
+		body{
+			margin: 0;
+			padding: 0;
+			background: #25C7D9;
+		}
+		
+		p a{
+			color: red;
+			text-align: center;
+			font-size: 28px;
+            
+		}
+    .our-projects{
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background: url(../imga/imagen2.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.our-projects .deg-background{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.8);
+}
+.our-projects .ejeZproject{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.our-projects .container-project{
+    width: 90%;
+    margin:auto;
+    padding-top: 100px;
+}
+.our-projects .container-project .project-title{
+    border:2px solid #fff;
+    padding:10px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.our-projects .container-project .project-title h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: normal;
+}
+.our-projects .container-project .project-title hr{
+   background:#fff;
+   width: 50%;
+   height: 3px;
+   margin: 10px auto;
+}
+.our-projects .container-project .project-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+.our-projects .container-project .project-img img{
+  width: calc(30% - 10px);
+  margin:10px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width:446px){
+    .our-projects .container-project .project-title h2{font-size: 30px;}
+}
+
+
+#container img{
+           /* background: url(foto.png);*/
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            transition: all 1s;
+        }
+        #container img :hover{
+            border-radius: 44% 56% 87% 13% / 68% 86% 14% 32% ;
+        }
+
+        footer p {
+          color: red;
+          font-size: 20px;
+        }
+
+	</style>
+</head>
+<body>
+      
+ <p>
+    <a href="../index.html"><img src="imga/HECTOR1.png" ></a>	
+ </p>
+
+ <section class="our-projects">
+      <div class="skew-arriba"></div>
+   <div class="deg-background"></div>
+   
+   <div class="ejeZproject">
+      <div class="container-project">
+        <div class="project-title">
+          <h2>NUESTRA CONVOCATORIA</h2>
+          <hr>
+        </div>
+          
+
+         <div id="container">
+        
+          <img src="imga/img1.png" alt="">
+            <img src="imga/img2.png" alt="">
+            <img src="imga/img3.png" alt="">
+            <img src="imga/img4.png" alt="">
+            <img src="imga/img5.png" alt="">
+            <img src="imga/img6.png" alt="">
+            <img src="imga/img7.png" alt="">
+            <img src="imga/img8.png" alt="">
+            <img src="imga/img9.png" alt="">
+            <img src="imga/img10.png" alt="">
+    </div>
+   
+   </section>
+   <footer>
+    <p>ENVIENOS SU CURICULUM BITAE</p> 
+   </footer>
+  
+</body>
+</html>
